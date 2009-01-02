@@ -1,0 +1,7 @@
+NAME WINAMP.SCR
+
+DESCRIPTION 'SCRNSAVE : Winamp Blank Screensaver'
+
+EXPORTS 
+        ScreenSaverProc 
+        ScreenSaverConfigureDialog 

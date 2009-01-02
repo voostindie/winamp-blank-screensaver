@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Winamp - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/Winamp.res" /d "NDEBUG" "F:\C++\Winamp\Winamp.rc"" 
+Creating temporary file "C:\TEMP\RSP1D5.TMP" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Winamp.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\C++\Winamp\Winamp.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSP1D5.TMP" 
+Creating temporary file "C:\TEMP\RSP01D6.TMP" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Winamp.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\C++\Winamp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSP01D6.TMP" 
+Creating temporary file "C:\TEMP\RSP01D7.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib scrnsave.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Winamp.pdb" /machine:I386 /def:".\Winamp.def" /out:"Release/Winamp.scr" 
+".\Release\StdAfx.obj"
+".\Release\Winamp.obj"
+".\Release\Winamp.res"
+]
+Creating command line "link.exe @C:\TEMP\RSP01D7.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Winamp.cpp
+Linking...
+   Creating library Release/Winamp.lib and object Release/Winamp.exp
+
+
+
+<h3>Results</h3>
+Winamp.scr - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
